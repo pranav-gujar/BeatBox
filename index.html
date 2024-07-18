@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeatBox-MusicPlayer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="music-thumbnail.png">
+    <script src="https://kit.fontawesome.com/9689c84a60.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1 id="heading">BeatBox-MusicPlayer</h1>
+    <div class="container">
+        <div class="music-player">
+            <nav>
+                <div class="circle">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                 <div><h1 style="font-size: 40px; font-weight: 100; color: rgb(227, 70, 167); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">BeatBox</h1></div>
+                <div class="circle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+            <img src="main-image.avif" class="song-img">
+            <!-- <h1>Give Me Some Sunshine</h1> -->
+            <p>by Swanand Kirkire</p>
+
+            <audio id="song"> <!--controls-->
+                <source src="Give-me-some-sunshine.mp3" type="audio/mpeg">
+            </audio>
+            <input type="range" value="0" id="progress">
+
+            <div class="controls">
+                <div><i class="fa-solid fa-backward"></i></div>
+                <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></i></div>
+                <div><i class="fa-solid fa-forward"></i></i></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+    <footer style="background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    padding: 5px;">Copyright &copy;2024.All rights reserved by Mr Pranav Rajesh Gujar</footer>
+
+</body>
+</html>
