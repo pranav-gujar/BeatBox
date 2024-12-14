@@ -23,7 +23,7 @@ This project has been an incredible experience, allowing me to delve deeper into
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/pranav-gujar/CodeAlpha_Music_Player
+    git clone https://github.com/pranav-gujar/BeatBox
     ```
 2. Navigate to the project directory:
     ```bash
