@@ -23,7 +23,7 @@ This project has been an incredible experience, allowing me to delve deeper into
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/pranav-gujar/BeatBox
+    git clone https://github.com/pranav-gujar/BeatBox.git
     ```
 2. Navigate to the project directory:
     ```bash
