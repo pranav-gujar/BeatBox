@@ -2,7 +2,7 @@
 
 ## Overview
 
-I am thrilled to announce that I have successfully developed a web-based Music Player with playlist functionality using HTML, CSS, and JavaScript. This marks the completion of my 2nd task of a 12-week web development internship at CodeAlpha.
+I am thrilled to announce that I have successfully developed a web-based Music Player with playlist functionality using HTML, CSS, and JavaScript.
 
 This project has been an incredible experience, allowing me to delve deeper into front-end development and create a feature-rich music player that enhances the user's listening experience.
 
@@ -27,7 +27,7 @@ This project has been an incredible experience, allowing me to delve deeper into
     ```
 2. Navigate to the project directory:
     ```bash
-    cd CodeAlpha_MusicPlayer
+    cd BeatBox
     ```
 
 ## Usage
@@ -36,7 +36,3 @@ This project has been an incredible experience, allowing me to delve deeper into
 2. Use the search functionality to find your favorite tracks.
 3. Create and manage playlists to organize your music.
 4. Use the play, pause, skip, and volume controls to enjoy your music.
-
-## Acknowledgements
-
-- Thanks to CodeAlpha for providing the opportunity to work on this project during my web development internship.
